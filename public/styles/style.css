@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Montserrat:wght@300;400;700&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: red;
+    font-weight: 300;
+}
+
+.bg-img{
+    background-image: url('/images/spotify-background.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 80px 150px;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form input {
+    width: 300px;
+    height: 20px;
+    font-family: inherit;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+.form button {
+    width: 150px;
+    height: 35px;
+    font-family: inherit;
+    margin: 10px;
+    background: lightcoral;
+    border: none;
+    color: white;
+}
