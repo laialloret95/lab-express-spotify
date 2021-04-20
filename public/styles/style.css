@@ -20,6 +20,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .form {
@@ -38,12 +39,27 @@ body {
 }
 
 .form input {
-    width: 300px;
-    height: 20px;
+    width: 450px;
+    height: 40px;
     font-family: inherit;
     border: 1px solid;
     border-color: lightgray;
     border-radius: 5px;
+    margin: 20px;
+}
+
+.home-btn {
+    font-size: 20px;
+    width: 250px;
+    height: 40px;
+    font-family: inherit;
+    background: lightcoral;
+    border: none;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .btn {
@@ -99,6 +115,7 @@ img {
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 h2 {
