@@ -13,6 +13,7 @@ body {
     font-weight: 300;
 }
 
+/* HOME */
 .bg-img{
     background-image: url('/images/spotify-background.jpeg');
     height: 100%;
@@ -62,6 +63,7 @@ body {
     margin: 10px;
 }
 
+/* ARTISTS & ALBUMS */
 .btn {
     display: inline-flex;
     align-items: center; 
@@ -123,6 +125,7 @@ h2 {
     font-weight: normal;
 }
 
+/* TRACKS */
 h3 {
     color: black;
 }
