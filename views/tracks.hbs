@@ -1,5 +1,11 @@
+<section class="header">
+    <h2>Title</h2>
+    <h2>Listen</h2>
+</section>
+
 {{#each tracksArray}}
-<h2>{{name}}</h2>
-<audio controls src={{ preview_url }}>
-</audio>
+<div class="track-container">
+    <h3>{{name}}</h2>
+        <audio controls src={{ preview_url }}> </audio>
+</div>
 {{/each}}
